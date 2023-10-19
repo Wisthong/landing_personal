@@ -5,13 +5,9 @@ import {
   FaIconLibrary,
 } from '@fortawesome/angular-fontawesome';
 import {
-  faCircle as farCircle,
-  faSquare as farSquare,
-} from '@fortawesome/free-regular-svg-icons';
-import {
-  faStackOverflow,
   faGithub,
-  faMedium,
+  faNode,
+  faAngular,
 } from '@fortawesome/free-brands-svg-icons';
 @Component({
   selector: 'app-header',
@@ -22,4 +18,7 @@ import {
 })
 export class HeaderComponent {
   faGithub = faGithub;
+  faNode = faNode;
+  faAngular = faAngular;
+
 }

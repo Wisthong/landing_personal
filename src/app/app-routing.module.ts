@@ -12,7 +12,7 @@ const routes: Routes = [
     loadComponent() {
       return import('./home/home.component');
     },
-    title: 'Landing page',
+    title: 'Wisthong David Martinez',
   },
 ];
 
